@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(224, 224, 196);
+    background-image: url(img/banner-left-img-cyan.png);
+   background-repeat: no-repeat;
+}
+ h1 {
+color: aqua;
+margin-bottom: 20px;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+button{
+    margin-top: 15px;
+    border:none;
+    background-color: aqua;
+    padding: 10px 15px ;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+img{
+    margin:50px ;
+}
+
+#top p{
+    width: 600px;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-image: url(img/dream-bg-cyan.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+}
+
+#about-img
+    {   
+       width: 50px 0px;
+    }
+   
+   #about p{
+    width: 600px;
+}
+
+
+#experince {
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(200, 233, 233);
+    padding: 70px;
+    background-image: url(img/exp-bg-cyan.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position-y: center;
+
+
+}
+
+#box{
+    width: 350px;
+    padding: 50px;
+    box-shadow: 0px 0px 50px rgb(49, 41, 41) ;
+    border-left: 10px solid;
+    border-image:linear -gradient
+    (red,blue);
+border-image-slice: 1;
+    }
+#box{
+    border-left: 10px solid;
+    border-image:linear-gradient
+    (red,blue);
+    border-image-slice:1;
+}
+footer{
+    text-align: center;
+    padding: 30px 0;
+    background-image: url(img/footer-right-img-cyan.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
